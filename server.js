@@ -2,6 +2,7 @@
 const { animals } = require('./data/animals');
 
 const express = require('express');
+const PORT = process.env.PORT || 3001;
 //instantiate the server and tell it to listen for requests
 const app = express();
 //we're breaking the Query selector into its own function. This will keep our code maintainable and clean.
@@ -52,6 +53,6 @@ app.get('/api/animals', (req, res) => {
     res.json(results);
   });
 //method to make the server listen
-app.listen(3001, () => {
-    console.log(`API server now on port 3001!`);
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
   });
