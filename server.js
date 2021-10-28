@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3001;
 //instantiate the server and tell it to listen for requests
 const app = express();
 
+app.use(express.static('public'));
+
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
@@ -110,11 +112,26 @@ if (!validateAnimal(req.body)){
     res.json(animal);
 }
 });
-//method to make the server listen
-app.listen(PORT, () => {
-    console.log(`API server now on port ${PORT}!`);
-  });
+
 
   app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
+  });
+
+  //animal page
+  app.get('/animals', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/animals.html'));
+  });
+
+  //zookeeper page
+  app.get('/zookeepers', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'));
+  });
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+  });
+  
+  //method to make the server listen
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
   });
