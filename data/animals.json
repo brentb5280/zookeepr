@@ -69,6 +69,13 @@
       "species": "Tiger",
       "diet": "carnivore",
       "personalityTraits": ["hungry"]
+    },
+    {
+      "id": "10",
+      "name": "Huy",
+      "species": "panda",
+      "diet": "carnivore",
+      "personalityTraits": ["hungry"]
     }
   ]
 }
