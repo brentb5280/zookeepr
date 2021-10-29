@@ -14,7 +14,7 @@
       },
       {
         "id": "2",
-        "name": "Barbra",
+        "name": "Huy N",
         "age": 67,
         "favoriteAnimal": "bear"
       },
@@ -51,6 +51,24 @@
       {
         "id": "8",
         "name": "John Stamos",
+        "age": 19,
+        "favoriteAnimal": "Business Cat"
+      },
+      {
+        "id": "9",
+        "name": "quinn",
+        "age": 19,
+        "favoriteAnimal": "Business Cat"
+      },
+      {
+        "id": "10",
+        "name": "Russell",
+        "age": 19,
+        "favoriteAnimal": "Business Cat"
+      },
+      {
+        "id": "11",
+        "name": "Kurt",
         "age": 19,
         "favoriteAnimal": "Business Cat"
       }
