@@ -1,4 +1,5 @@
 const router = require('express').Router();
+//filter 
 const {
   filterByQuery,
   findById,
@@ -7,6 +8,7 @@ const {
 } = require('../../lib/zookeepers');
 const { zookeepers } = require('../../data/zookeepers');
 
+//route to get zooKeepers
 router.get('/zookeepers', (req, res) => {
   let results = zookeepers;
   if (req.query) {
@@ -15,6 +17,7 @@ router.get('/zookeepers', (req, res) => {
   res.json(results);
 });
 
+//find zookeeper by ID and give error if not correct
 router.get('/zookeepers/:id', (req, res) => {
   const result = findById(req.params.id, zookeepers);
   if (result) {
