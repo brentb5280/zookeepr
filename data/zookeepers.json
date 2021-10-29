@@ -2,19 +2,19 @@
     "zookeepers": [
       {
         "id": "0",
-        "name": "Kim",
+        "name": "Greg",
         "age": 28,
         "favoriteAnimal": "dolphin"
       },
       {
         "id": "1",
-        "name": "Raksha",
+        "name": "KVO",
         "age": 31,
         "favoriteAnimal": "penguin"
       },
       {
         "id": "2",
-        "name": "Isabella",
+        "name": "Barbra",
         "age": 67,
         "favoriteAnimal": "bear"
       },
@@ -26,31 +26,31 @@
       },
       {
         "id": "4",
-        "name": "Ryan",
+        "name": "Kenny",
         "age": 20,
         "favoriteAnimal": "dog"
       },
       {
         "id": "5",
-        "name": "Alex",
+        "name": "Erod",
         "age": 32,
         "favoriteAnimal": "Sloths"
       },
       {
         "id": "6",
-        "name": "Amiko",
+        "name": "eric",
         "age": 43,
         "favoriteAnimal": "Quokkas"
       },
       {
         "id": "7",
-        "name": "Emmy",
+        "name": "Karen",
         "age": 29,
         "favoriteAnimal": "Duckbilled Platypus"
       },
       {
         "id": "8",
-        "name": "Lernantino",
+        "name": "John Stamos",
         "age": 19,
         "favoriteAnimal": "Business Cat"
       }
