@@ -10,6 +10,7 @@ router.get('/animals', (req, res) => {
   res.json(results);
 });
 
+//Find animal by ID and give error if not correct 
 router.get('/animals/:id', (req, res) => {
   const result = findById(req.params.id, animals);
   if (result) {
